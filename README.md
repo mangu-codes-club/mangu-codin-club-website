@@ -1,47 +1,109 @@
-# Svelte + TS + Vite
+# 🥭 Mangu Coding Club Website
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+Welcome to the official website of Mangu Coding Club! This modern, responsive website showcases our community, events, and activities.
 
-## Recommended IDE Setup
+## 🚀 Live Website
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+Visit our website at: [https://mangu-codes-club.github.io/mangu-coding-club-website/](https://mangu-codes-club.github.io/mangu-coding-club-website/)
 
-## Need an official Svelte framework?
+## 🛠️ Tech Stack
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+- **Frontend**: Svelte + TypeScript
+- **Build Tool**: Vite
+- **Styling**: Custom CSS with modern design principles
+- **Deployment**: GitHub Pages with GitHub Actions
 
-## Technical considerations
+## 🌟 Features
 
-**Why use this over SvelteKit?**
+- **Responsive Design**: Looks great on all devices
+- **Modern UI**: Clean, professional design with smooth animations
+- **Interactive Components**: Dynamic navigation and engaging user interface
+- **Event Management**: Showcase upcoming and past events
+- **Community Info**: About section with statistics and technology showcase
+- **Contact Information**: Easy ways to get in touch and join the club
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+## 📁 Project Structure
 
-This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
-
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
-
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
-
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
-
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `allowJs` in the TS template?**
-
-While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```ts
-// store.ts
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
 ```
+src/
+├── lib/
+│   ├── Header.svelte      # Navigation header with responsive menu
+│   ├── Hero.svelte        # Landing section with club introduction
+│   ├── About.svelte       # About section with mission and stats
+│   ├── Events.svelte      # Events showcase and registration
+│   └── Footer.svelte      # Footer with links and contact info
+├── App.svelte            # Main app component
+├── main.ts               # App entry point
+└── app.css              # Global styles
+```
+
+## 🚀 Development Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/mangu-codes-club/mangu-coding-club-website.git
+   cd mangu-coding-club-website
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+## 🚀 Deployment
+
+This website is automatically deployed to GitHub Pages using GitHub Actions. Every push to the `main` branch triggers a new deployment.
+
+### Manual Deployment Steps:
+
+1. Ensure the repository exists on GitHub
+2. Enable GitHub Pages in repository settings
+3. Set source to "GitHub Actions"
+4. Push to main branch to trigger deployment
+
+## 🤝 Contributing
+
+We welcome contributions from club members! Here's how you can help:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add amazing feature'`)
+5. Push to the branch (`git push origin feature/amazing-feature`)
+6. Open a Pull Request
+
+## 📋 TODO / Future Enhancements
+
+- [ ] Add member login/registration system
+- [ ] Integrate with calendar API for events
+- [ ] Add blog/news section
+- [ ] Implement project showcase gallery
+- [ ] Add workshop booking system
+- [ ] SEO optimization
+- [ ] Add more interactive elements
+
+## 📞 Contact
+
+For questions about this website or to join the Mangu Coding Club:
+
+- 📧 Email: hello@mangucodingclub.com
+- 💬 Discord: [Join our server](#)
+- 🐙 GitHub: [mangu-codes-club](https://github.com/mangu-codes-club)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Made with 💜 by the Mangu Coding Club community**
