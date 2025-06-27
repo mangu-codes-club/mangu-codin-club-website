@@ -4,7 +4,7 @@ Welcome to the official website of Mangu Coding Club! This modern, responsive we
 
 ## 🚀 Live Website
 
-Visit our website at: [https://mangu-codes-club.github.io/mangu-coding-club-website/](https://mangu-codes-club.github.io/mangu-coding-club-website/)
+Visit our website at: [https://mangu-codes-club.github.io/mangu-codin-club-website/](https://mangu-codes-club.github.io/mangu-codin-club-website/)
 
 ## 🛠️ Tech Stack
 
@@ -41,8 +41,8 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/mangu-codes-club/mangu-coding-club-website.git
-   cd mangu-coding-club-website
+   git clone https://github.com/mangu-codes-club/mangu-codin-club-website.git
+   cd mangu-codin-club-website
    ```
 
 2. **Install dependencies**

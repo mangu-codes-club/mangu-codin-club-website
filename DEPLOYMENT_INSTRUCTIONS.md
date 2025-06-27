@@ -4,7 +4,7 @@
 
 1. Go to [GitHub.com](https://github.com) and sign in to the `mangu-codes-club` organization account
 2. Click the "+" icon in the top right corner and select "New repository"
-3. Set the repository name to: `mangu-coding-club-website`
+3. Set the repository name to: `mangu-codin-club-website`
 4. Make sure it's set to **Public** (required for free GitHub Pages)
 5. **Do NOT** initialize with README, .gitignore, or license (we already have these files)
 6. Click "Create repository"
@@ -15,7 +15,7 @@ After creating the repository, run these commands in the project directory:
 
 ```bash
 # Add the remote repository (update if URL is different)
-git remote set-url origin https://github.com/mangu-codes-club/mangu-coding-club-website.git
+git remote set-url origin https://github.com/mangu-codes-club/mangu-codin-club-website.git
 
 # Push the code
 git push -u origin main
@@ -35,7 +35,7 @@ git push -u origin main
 2. You should see a workflow called "Deploy to GitHub Pages" running
 3. Wait for it to complete (usually takes 2-3 minutes)
 4. Once completed, your website will be available at:
-   `https://mangu-codes-club.github.io/mangu-coding-club-website/`
+   `https://mangu-codes-club.github.io/mangu-codin-club-website/`
 
 ## Step 5: Custom Domain (Optional)
 
