@@ -1,0 +1,266 @@
+<footer id="contact" class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <div class="logo">
+          <h3>🥭 Mangu Coding Club</h3>
+          <p>Empowering developers, building the future.</p>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link">
+            <span class="social-icon">💬</span>
+            Discord
+          </a>
+          <a href="#" class="social-link">
+            <span class="social-icon">📧</span>
+            Email
+          </a>
+          <a href="#" class="social-link">
+            <span class="social-icon">🐙</span>
+            GitHub
+          </a>
+          <a href="#" class="social-link">
+            <span class="social-icon">📸</span>
+            Instagram
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Resources</h4>
+        <ul class="footer-links">
+          <li><a href="#">Learning Materials</a></li>
+          <li><a href="#">Project Gallery</a></li>
+          <li><a href="#">Member Portal</a></li>
+          <li><a href="#">Code of Conduct</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Get Involved</h4>
+        <ul class="footer-links">
+          <li><a href="#">Join the Club</a></li>
+          <li><a href="#">Become a Mentor</a></li>
+          <li><a href="#">Sponsor Us</a></li>
+          <li><a href="#">Volunteer</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="icon">📍</span>
+            <span>Tech Campus, Room 205<br>Innovation Center</span>
+          </div>
+          <div class="contact-item">
+            <span class="icon">📧</span>
+            <span>hello@mangucodingclub.com</span>
+          </div>
+          <div class="contact-item">
+            <span class="icon">📞</span>
+            <span>+1 (555) 123-CODE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-bottom-content">
+        <p>&copy; 2024 Mangu Coding Club. Made with 💜 by our amazing community.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background: #1a1a1a;
+    color: white;
+    padding: 4rem 0 0 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1.5fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .footer-section h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+  }
+  
+  .footer-section h4 {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.2rem;
+    color: #667eea;
+  }
+  
+  .footer-section p {
+    color: #ccc;
+    line-height: 1.6;
+    margin: 0 0 2rem 0;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    text-decoration: none;
+    background: #333;
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover {
+    background: #667eea;
+    transform: translateY(-2px);
+  }
+  
+  .social-icon {
+    font-size: 1.2rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 0.8rem;
+  }
+  
+  .footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #667eea;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+    color: #ccc;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .contact-item .icon {
+    font-size: 1rem;
+    margin-top: 0.1rem;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #333;
+    padding: 2rem 0;
+  }
+  
+  .footer-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  .footer-bottom-links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .footer-bottom-links a {
+    color: #888;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-bottom-links a:hover {
+    color: #667eea;
+  }
+  
+  @media (max-width: 1024px) {
+    .footer-content {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 2rem;
+    }
+    
+    .footer-section:first-child {
+      grid-column: 1 / -1;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      padding: 3rem 0 0 0;
+    }
+    
+    .footer-content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    
+    .social-links {
+      justify-content: center;
+    }
+    
+    .footer-bottom-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 1rem;
+    }
+    
+    .footer-bottom-links {
+      gap: 1rem;
+    }
+  }
+</style>
