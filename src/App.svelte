@@ -4,6 +4,8 @@
   import About from './lib/About.svelte'
   import Events from './lib/Events.svelte'
   import Footer from './lib/Footer.svelte'
+  import Mentor from './lib/mentor.svelte'
+  import Sponsor from './lib/SponsorUs.svelte'
 </script>
 
 <main>
@@ -12,6 +14,8 @@
   <About />
   <Events />
   <Footer />
+  <Mentor />
+  <Sponsor />
 </main>
 
 <style>
