@@ -49,8 +49,8 @@
         <h4>Get Involved</h4>
         <ul class="footer-links">
           
-          <li><a href="/mentor">Become a Mentor</a></li>
-          <li><a href="/sponsor-us">Sponsor Us</a></li>
+          <li><a href="#mentor">Become a Mentor</a></li>
+          <li><a href="#sponsor-us">Sponsor Us</a></li>
           <!-- <li><a href="#">Volunteer</a></li> -->
         </ul>
       </div>
