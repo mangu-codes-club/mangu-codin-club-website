@@ -36,6 +36,25 @@
   
   <style>
     main {
-      /* ... */
+      min-height: 100vh;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      background: #f7fafd;
     }
-  </style> 
+  
+    @media (max-width: 900px) {
+      main {
+        padding: 0 1rem;
+      }
+    }
+  
+    @media (max-width: 600px) {
+      main {
+        padding: 0 0.5rem;
+      }
+    }
+  </style>
