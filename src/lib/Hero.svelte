@@ -1,12 +1,13 @@
 <section id="home" class="hero">
   <div class="container">
     <div class="hero-content">
-      <h1><br>
-        Welcome to Mangu Coding Club
-      </br></h1>
+      <h1>
+        Welcome to<br />
+        Mangu Coding Club
+      </h1>
       <p class="hero-subtitle">
-        Where passion meets programming! Join our community of developers, 
-        learners, and innovators as we explore the exciting world of code together.
+        Where passion meets programming! <br />Join our community of developers,<br /> 
+        learners, and innovators as <br />we explore the exciting <br />world of code together.
       </p>
       <div class="hero-buttons">
         <button class="btn primary">Join Us</button>
