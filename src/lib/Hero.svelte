@@ -54,14 +54,9 @@
 
   .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    
+    color: white;  
     min-height: 80vh;
-    display: flex;
-    align-items: center;
-    display: contain;
-    
-    align-items: center;
+    align-items: start;
     padding: 4rem 2rem;
     text-align: center;
   }
