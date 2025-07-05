@@ -9,7 +9,7 @@
 <header class="header">
   <div class="container">
     <div class="logo">
-      <h2>🥭 Mangu Coding Club</h2>
+      <h2><br>👨🏼‍💻Mangu Coding Club</br></h2>
     </div>
     
     <nav class="nav" class:open={menuOpen}>

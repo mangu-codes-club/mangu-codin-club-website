@@ -22,6 +22,7 @@
           <span class="filename">mangu-club.js</span>
         </div>
         <div class="code-content">
+          <br>
           <pre><code>const manguClub = &#123;
   mission: "Learn, Build, Share",
   members: "Growing daily!",
@@ -32,6 +33,7 @@
     console.log("Welcome to Mangu Coding Club! 🥭");
   &#125;
 &#125;;</code></pre>
+          </br>
         </div>
       </div>
     </div>
