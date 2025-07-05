@@ -1,7 +1,9 @@
 <section id="home" class="hero">
   <div class="container">
     <div class="hero-content">
-      <h1>Welcome to Mangu Coding Club</h1>
+      <h1><br>
+        Welcome to Mangu Coding Club
+      </br></h1>
       <p class="hero-subtitle">
         Where passion meets programming! Join our community of developers, 
         learners, and innovators as we explore the exciting world of code together.
@@ -22,22 +24,16 @@
           <span class="filename">mangu-club.js</span>
         </div>
         <div class="code-content">
-          
-          <pre><code>
-            
-  const manguClub = &#123;
-        mission: "Learn, Build, Share",
-        members: "Growing daily!",
-        languages: ["JavaScript", "Python", "Java"],
-        activities: ["Workshops", "Hackathons", "Projects"],
-        
-        welcome() &#123;
-          console.log("Welcome to Mangu Coding Club! 🥭");
-        &#125;
-&#125;;
-
-</code></pre>
-          
+          <pre><code>const manguClub = &#123;
+  mission: "Learn, Build, Share",
+  members: "Growing daily!",
+  languages: ["JavaScript", "Python", "Java"],
+  activities: ["Workshops", "Hackathons", "Projects"],
+  
+  welcome() &#123;
+    console.log("Welcome to Mangu Coding Club! ");
+  &#125;
+&#125;;</code></pre>
         </div>
       </div>
     </div>
@@ -45,20 +41,13 @@
 </section>
 
 <style>
-
-
-.hero h1 {
-  font-size: 4vw;
-}
-
-
   .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;  
+    color: white;
+    padding: 6rem 0;
     min-height: 80vh;
-    align-items: start;
-    padding: 4rem 2rem;
-    text-align: center;
+    display: flex;
+    align-items: center;
   }
   
   .container {
