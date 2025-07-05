@@ -48,10 +48,8 @@
       <div class="footer-section">
         <h4>Get Involved</h4>
         <ul class="footer-links">
-          
-          <li><a href="mentor-page">Become a Mentor</a></li>
-          <li><a href="sponsor-us">Sponsor Us</a></li>
-          <!-- <li><a href="#">Volunteer</a></li> -->
+          <li><a href="#" on:click|preventDefault={() => dispatch('navigate', 'mentor')}>Become a Mentor</a></li>
+          <li><a href="#" on:click|preventDefault={() => dispatch('navigate', 'sponsor')}>Sponsor Us</a></li>
         </ul>
       </div>
       
@@ -286,3 +284,8 @@
     }
   }
 </style>
+
+<script lang="ts">
+  import { createEventDispatcher } from 'svelte';
+  const dispatch = createEventDispatcher();
+</script>
