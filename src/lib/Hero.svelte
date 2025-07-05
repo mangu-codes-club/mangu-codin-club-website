@@ -3,7 +3,8 @@
     <div class="hero-content">
       <h1>
         Welcome to<br />
-        Mangu Coding Club
+        Mangu Coding<br />
+         Club
       </h1>
       <p class="hero-subtitle">
         Where passion meets programming! <br />Join our community of developers,<br /> 
@@ -28,11 +29,21 @@
           <pre><code>const manguClub = &#123;
   mission: "Learn, Build, Share",
   members: "Growing daily!",
-  languages: ["JavaScript", "Python", "Java"],
-  activities: ["Workshops", "Hackathons", "Projects"],
+  languages: [
+    "JavaScript",
+     "Python", 
+     "Java"
+     ],
+  activities: [
+    "Workshops",
+     "Hackathons", 
+     "Projects"
+     ],
   
   welcome() &#123;
-    console.log("Welcome to Mangu Coding Club! ");
+    console.log(
+      "Welcome to Mangu Coding Club!"
+      );
   &#125;
 &#125;;</code></pre>
         </div>
