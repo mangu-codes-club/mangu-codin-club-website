@@ -1,11 +1,11 @@
 <footer id="contact" class="footer">
-  <div class="container">ib/Header.svelte'
-    <div class="footer-content">velte'
-      <div class="footer-section">velte'
-        <div class="logo">b/Events.svelte'
-          <h3>🥭 Mangu Coding Club</h3>te'
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <div class="logo">
+          <h3>🥭 Mangu Coding Club</h3>
           <p>Empowering developers, building the future.</p>
-        </div>or from './lib/SponsorUs.svelte'
+        </div>
         <div class="social-links">
           <!-- <a href="#" class="social-link">
             <span class="social-icon">💬</span>
