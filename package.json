@@ -7,11 +7,21 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+<<<<<<< HEAD
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
+=======
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -r https://github.com/mangu-codes-club/mangu-codin-club-website.git"
+>>>>>>> b9bf38f55b41b959d590260d596e3e661d555633
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^5.1.0",
     "@tsconfig/svelte": "^5.0.4",
+<<<<<<< HEAD
+=======
+    "gh-pages": "^6.3.0",
+>>>>>>> b9bf38f55b41b959d590260d596e3e661d555633
     "svelte": "^5.34.7",
     "svelte-check": "^4.2.2",
     "typescript": "~5.8.3",
