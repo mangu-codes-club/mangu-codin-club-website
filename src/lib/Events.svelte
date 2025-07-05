@@ -1,7 +1,6 @@
 <script lang="ts">
   const upcomingEvents = [
     {
-<<<<<<< HEAD
       title: "Tech Gala",
       date: "July 19, 2025",
       time: "9:00 AM - 4:00 PM",
@@ -10,61 +9,16 @@
       type: "Exhibition"
     },
  
-=======
-      title: "JavaScript Fundamentals Workshop",
-      date: "July 15, 2024",
-      time: "6:00 PM - 8:00 PM",
-      location: "Main Conference Room",
-      description: "Learn the basics of JavaScript programming, from variables to functions.",
-      type: "Workshop"
-    },
-    {
-      title: "React Bootcamp",
-      date: "July 22, 2024",
-      time: "10:00 AM - 4:00 PM",
-      location: "Tech Lab",
-      description: "Build your first React application with hands-on exercises.",
-      type: "Bootcamp"
-    },
-    {
-      title: "Monthly Hackathon",
-      date: "July 29, 2024",
-      time: "9:00 AM - 9:00 PM",
-      location: "Innovation Hub",
-      description: "24-hour coding challenge with prizes for the best projects.",
-      type: "Hackathon"
-    }
->>>>>>> b9bf38f55b41b959d590260d596e3e661d555633
   ];
 
   const pastEvents = [
     {
-<<<<<<< HEAD
       title: "Web Development for Beginners",
       date: "March 20, 2025",
       attendees: 45,
       description: "Introduction to Python programming language."
     },
  
-=======
-      title: "Python for Beginners",
-      date: "June 20, 2024",
-      attendees: 45,
-      description: "Introduction to Python programming language."
-    },
-    {
-      title: "Git & GitHub Workshop",
-      date: "June 15, 2024",
-      attendees: 38,
-      description: "Version control essentials for developers."
-    },
-    {
-      title: "Web Development Bootcamp",
-      date: "June 10, 2024",
-      attendees: 52,
-      description: "Full-stack web development fundamentals."
-    }
->>>>>>> b9bf38f55b41b959d590260d596e3e661d555633
   ];
 </script>
 
@@ -98,7 +52,6 @@
                 </div>
               </div>
               <p class="event-description">{event.description}</p>
-<<<<<<< HEAD
             <a
               class="register-btn"
               href="mailto:mangucodingclub@proton.me?subject=Event Registration&body=I would like to register for the {event.title}."
@@ -106,9 +59,6 @@
             >
               Register Now
             </a>
-=======
-              <button class="register-btn">Register Now</button>
->>>>>>> b9bf38f55b41b959d590260d596e3e661d555633
             </div>
           {/each}
         </div>

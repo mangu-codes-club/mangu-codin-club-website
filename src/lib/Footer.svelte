@@ -7,7 +7,6 @@
           <p>Empowering developers, building the future.</p>
         </div>
         <div class="social-links">
-<<<<<<< HEAD
           <!-- <a href="#" class="social-link">
             <span class="social-icon">💬</span>
             Discord
@@ -17,17 +16,6 @@
             Email
           </a>
           <a href="https://github.com/mangu-codes-club" class="social-link">
-=======
-          <a href="#" class="social-link">
-            <span class="social-icon">💬</span>
-            Discord
-          </a>
-          <a href="#" class="social-link">
-            <span class="social-icon">📧</span>
-            Email
-          </a>
-          <a href="#" class="social-link">
->>>>>>> b9bf38f55b41b959d590260d596e3e661d555633
             <span class="social-icon">🐙</span>
             GitHub
           </a>
@@ -53,18 +41,17 @@
         <ul class="footer-links">
           <li><a href="#">Learning Materials</a></li>
           <li><a href="#">Project Gallery</a></li>
-          <li><a href="#">Member Portal</a></li>
-          <li><a href="#">Code of Conduct</a></li>
+       
         </ul>
       </div>
       
       <div class="footer-section">
         <h4>Get Involved</h4>
         <ul class="footer-links">
-          <li><a href="#">Join the Club</a></li>
-          <li><a href="#">Become a Mentor</a></li>
-          <li><a href="#">Sponsor Us</a></li>
-          <li><a href="#">Volunteer</a></li>
+          
+          <li><a href="/mentor">Become a Mentor</a></li>
+          <li><a href="/sponsor-us">Sponsor Us</a></li>
+          <!-- <li><a href="#">Volunteer</a></li> -->
         </ul>
       </div>
       
@@ -73,7 +60,6 @@
         <div class="contact-info">
           <div class="contact-item">
             <span class="icon">📍</span>
-<<<<<<< HEAD
             <span>Mangu High School</span>
           </div>
           <div class="contact-item">
@@ -83,17 +69,6 @@
           <div class="contact-item">
             <span class="icon">📞</span>
             <span>+254701342831</span>
-=======
-            <span>Tech Campus, Room 205<br>Innovation Center</span>
-          </div>
-          <div class="contact-item">
-            <span class="icon">📧</span>
-            <span>hello@mangucodingclub.com</span>
-          </div>
-          <div class="contact-item">
-            <span class="icon">📞</span>
-            <span>+1 (555) 123-CODE</span>
->>>>>>> b9bf38f55b41b959d590260d596e3e661d555633
           </div>
         </div>
       </div>
@@ -103,26 +78,18 @@
       <div class="footer-bottom-content">
         <p>&copy; 2024 Mangu Coding Club. Made with 💜 by our amazing community.</p>
         <div class="footer-bottom-links">
-<<<<<<< HEAD
           <!-- <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a> -->
-=======
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
->>>>>>> b9bf38f55b41b959d590260d596e3e661d555633
         </div>
       </div>
     </div>
   </div>
-<<<<<<< HEAD
   
   <nav>
     <a href="/mentor">Mentor</a>
     <a href="/sponsor-us">Sponsor Us</a>
   </nav>
   <p>&copy; {new Date().getFullYear()} Coding Club. All rights reserved.</p>
-=======
->>>>>>> b9bf38f55b41b959d590260d596e3e661d555633
 </footer>
 
 <style>
@@ -265,7 +232,6 @@
     color: #667eea;
   }
   
-<<<<<<< HEAD
   nav {
     margin-top: 2rem;
     display: flex;
@@ -283,8 +249,6 @@
     text-decoration: underline;
   }
   
-=======
->>>>>>> b9bf38f55b41b959d590260d596e3e661d555633
   @media (max-width: 1024px) {
     .footer-content {
       grid-template-columns: 1fr 1fr 1fr;
