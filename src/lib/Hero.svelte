@@ -22,8 +22,10 @@
           <span class="filename">mangu-club.js</span>
         </div>
         <div class="code-content">
-          <br>
-          <pre><code>const manguClub = &#123;
+          
+          <pre><code>
+            <br>
+            const manguClub = &#123;
   mission: "Learn, Build, Share",
   members: "Growing daily!",
   languages: ["JavaScript", "Python", "Java"],
@@ -32,8 +34,10 @@
   welcome() &#123;
     console.log("Welcome to Mangu Coding Club! 🥭");
   &#125;
-&#125;;</code></pre>
-          </br>
+&#125;;
+<br>
+</code></pre>
+          
         </div>
       </div>
     </div>
