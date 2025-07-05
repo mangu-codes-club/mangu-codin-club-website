@@ -14,7 +14,7 @@
     // Listen for navigation events from Footer
     function navigate(newPage: string) {
       page = newPage;
-      window.scrollTo(0, 0); 
+      window.scrollTo(0, 0);
     }
   </script>
   
