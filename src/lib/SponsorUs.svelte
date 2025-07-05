@@ -51,7 +51,7 @@
   }
 </style>
 
-<div class="sponsor-page">
+<div class="sponsor-page" id = 'sponsor-page'>
   <h1>Sponsor Us</h1>
   <p>
     Support our club’s mission to empower students through coding!<br>

@@ -91,7 +91,7 @@
   }
 </style>
 
-<div class="mentor-page">
+<div class="mentor-page" id = 'mentor-page'>
   <h1>Be a Mentor</h1>
   <div class="mentor-info">
     <img src={patron.image} alt={patron.name} />
