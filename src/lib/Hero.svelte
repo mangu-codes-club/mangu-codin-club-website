@@ -24,18 +24,18 @@
         <div class="code-content">
           
           <pre><code>
-            <br>
-            const manguClub = &#123;
-  mission: "Learn, Build, Share",
-  members: "Growing daily!",
-  languages: ["JavaScript", "Python", "Java"],
-  activities: ["Workshops", "Hackathons", "Projects"],
-  
-  welcome() &#123;
-    console.log("Welcome to Mangu Coding Club! 🥭");
-  &#125;
+            
+  const manguClub = &#123;
+        mission: "Learn, Build, Share",
+        members: "Growing daily!",
+        languages: ["JavaScript", "Python", "Java"],
+        activities: ["Workshops", "Hackathons", "Projects"],
+        
+        welcome() &#123;
+          console.log("Welcome to Mangu Coding Club! 🥭");
+        &#125;
 &#125;;
-<br>
+
 </code></pre>
           
         </div>
@@ -45,27 +45,13 @@
 </section>
 
 <style>
-  .hero {
- 
-}
+
 
 .hero h1 {
   font-size: 4vw;
 }
 
-.hero p {
-  font-size: 2.5vw;
-}
 
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 8vw;
-  }
-
-  .hero p {
-    font-size: 4vw;
-  }
-}
   .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -73,8 +59,8 @@
     min-height: 80vh;
     display: flex;
     align-items: center;
-    display: flex;
-    flex-direction: column;
+    display: contain;
+    
     align-items: center;
     padding: 4rem 2rem;
     text-align: center;
