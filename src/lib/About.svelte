@@ -27,7 +27,7 @@
       
       <div class="stats">
         <div class="stat-card">
-          <div class="stat-number">150+</div>
+          <div class="stat-number">50+</div>
           <div class="stat-label">Active Members</div>
         </div>
         

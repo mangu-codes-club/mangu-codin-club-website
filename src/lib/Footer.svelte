@@ -7,15 +7,15 @@
           <p>Empowering developers, building the future.</p>
         </div>
         <div class="social-links">
-          <a href="#" class="social-link">
+          <!-- <a href="#" class="social-link">
             <span class="social-icon">💬</span>
             Discord
-          </a>
-          <a href="#" class="social-link">
+          </a> -->
+          <a href="mailto:mangucodingclub@proton.me" class="social-link">
             <span class="social-icon">📧</span>
             Email
           </a>
-          <a href="#" class="social-link">
+          <a href="https://github.com/mangu-codes-club" class="social-link">
             <span class="social-icon">🐙</span>
             GitHub
           </a>
@@ -61,15 +61,15 @@
         <div class="contact-info">
           <div class="contact-item">
             <span class="icon">📍</span>
-            <span>Tech Campus, Room 205<br>Innovation Center</span>
+            <span>Mangu High School</span>
           </div>
           <div class="contact-item">
             <span class="icon">📧</span>
-            <span>hello@mangucodingclub.com</span>
+            <span>mangucodingclub@proton.me</span>
           </div>
           <div class="contact-item">
             <span class="icon">📞</span>
-            <span>+1 (555) 123-CODE</span>
+            <span>+254701342831</span>
           </div>
         </div>
       </div>
@@ -79,12 +79,18 @@
       <div class="footer-bottom-content">
         <p>&copy; 2024 Mangu Coding Club. Made with 💜 by our amazing community.</p>
         <div class="footer-bottom-links">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
+          <!-- <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a> -->
         </div>
       </div>
     </div>
   </div>
+  
+  <nav>
+    <a href="/mentor">Mentor</a>
+    <a href="/sponsor-us">Sponsor Us</a>
+  </nav>
+  <p>&copy; {new Date().getFullYear()} Coding Club. All rights reserved.</p>
 </footer>
 
 <style>
@@ -225,6 +231,23 @@
   
   .footer-bottom-links a:hover {
     color: #667eea;
+  }
+  
+  nav {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  nav a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
   }
   
   @media (max-width: 1024px) {
