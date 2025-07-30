@@ -153,11 +153,37 @@
         margin-bottom: 3rem;
         font-size: xx-large;
     }
-    h3{
+h3{
         margin-bottom: 1rem;
     
         font-size: x-large;
     }
-    
 
+
+    @media (max-width: 900px) {
+    .Thayu_co_founders_speech,
+    .Ken_co_founders_speech,
+    .Alvin_co_founders_speech,
+    .Waswa_co_founders_speech {
+        width: 100%;
+        flex-direction: column;
+        margin: 2rem 0;
+        padding: 1.5rem;
+        text-align: center;
+    }
+    .Ken_co_founders_speech, .Alvin_co_founders_speech, .Waswa_co_founders_speech {
+        margin: 2rem 0;
+    }
+
+    .co_founders_image {
+        margin: 0 auto 1rem;
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .intro_speech {
+        font-size: large;
+    }
+}
+</style>
 </style>

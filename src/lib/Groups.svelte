@@ -159,4 +159,42 @@
         font-size: xx-large;
     }
    
+
+@media (max-width: 900px) {
+    .club_groups {
+        width: 100%;
+        padding: 1.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+    .main_title {
+        margin-left: 0;
+    }
+    .groups_intro {
+        margin-left: 0;
+        font-size: large;
+    }
+    .groups_backend,
+    .groups_frontend,
+    .groups_hacking,
+    .groups_embeded,
+    .groups_gamedev {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        margin: 2rem 0;
+        padding: 1.5rem;
+        text-align: center;
+    }
+
+    .project_group_image {
+        height: auto;
+        width: 90%;
+        max-width: 20rem;
+        margin: 0 auto 1rem;
+    }
+    .groups_frontend, .groups_embeded {
+        margin: 2rem 0;
+    }
+}
 </style>
