@@ -13,8 +13,8 @@
     </div>
     
     <nav class="nav" class:open={menuOpen}>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
       <a href="#events">Events</a>
       <a href="#contact">Contact</a>
     </nav>

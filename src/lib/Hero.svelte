@@ -11,8 +11,8 @@
         learners, and innovators as <br />we explore the exciting <br />world of code together.
       </p>
       <div class="hero-buttons">
-        <button class="btn primary">Join Us</button>
-        <button class="btn secondary">Learn More</button>
+        <!-- <button class="btn primary">Join Us</button> -->
+        <button class="btn secondary"><a href="#about">Learn More</a></button>
       </div>
     </div>
     <div class="hero-visual">

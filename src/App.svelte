@@ -1,5 +1,5 @@
 <script lang="ts">
-  // filepath: c:\Users\kenka\Desktop\coding-club\coding-club-web\src\App.svelte
+  // .\coding-club-web\src\App.svelte
     import Header from './lib/Header.svelte'
     import Hero from './lib/Hero.svelte'
     import About from './lib/About.svelte'
@@ -7,6 +7,8 @@
     import Footer from './lib/Footer.svelte'
     import Mentor from './lib/mentor.svelte'
     import Sponsor from './lib/SponsorUs.svelte'
+    import History from './lib/Club_history.svelte'
+    import Groups from './lib/Groups.svelte'
   
     // Simple routing: track the current page
     let page = 'home';
@@ -24,7 +26,10 @@
     {#if page === 'home'}
       <Hero />
       <About />
+      <Groups />
+      <History />
       <Events />
+      
     {:else if page === 'mentor'}
       <Mentor />
     {:else if page === 'sponsor'}

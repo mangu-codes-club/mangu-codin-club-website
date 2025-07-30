@@ -86,14 +86,14 @@
       </div>
     </div>
 
-    <div class="cta-section">
+    <!-- <div class="cta-section">
       <h3>Want to stay updated?</h3>
       <p>Join our community to get notified about upcoming events and activities!</p>
       <div class="cta-buttons">
         <button class="btn primary">Join Discord</button>
         <button class="btn secondary">Subscribe Newsletter</button>
       </div>
-    </div>
+    </div> -->
   </div>
 </section>
 

@@ -74,7 +74,7 @@
     
     <div class="footer-bottom">
       <div class="footer-bottom-content">
-        <p>&copy; 2024 Mangu Coding Club. Made with 💜 by our amazing community.</p>
+        <p>&copy; {new Date().getFullYear()} Coding Club. All rights reserved. Made with 💜 by our amazing community.</p>
         <div class="footer-bottom-links">
           <!-- <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a> -->
@@ -83,11 +83,8 @@
     </div>
   </div>
   
-  <nav>
-    <a href="/mentor">Mentor</a>
-    <a href="/sponsor-us">Sponsor Us</a>
-  </nav>
-  <p>&copy; {new Date().getFullYear()} Coding Club. All rights reserved.</p>
+
+  <p></p>
 </footer>
 
 <style>
